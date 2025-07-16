@@ -1,0 +1,47 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="#1a1a1a" stroke="#333333" stroke-width="2"/>
+  
+  <!-- AWS-style cloud shape -->
+  <path d="M25 40 C25 35, 28 32, 33 32 C35 29, 39 29, 42 32 C45 29, 49 29, 52 32 C55 29, 59 29, 62 32 C67 32, 70 35, 70 40 C70 45, 67 48, 62 48 L33 48 C28 48, 25 45, 25 40 Z" fill="#ff9900" opacity="0.9"/>
+  
+  <!-- DevOps infinity symbol integrated -->
+  <path d="M30 55 C30 52, 32 50, 35 50 C38 50, 40 52, 40 55 C40 58, 42 60, 45 60 C48 60, 50 58, 50 55 C50 52, 52 50, 55 50 C58 50, 60 52, 60 55 C60 58, 58 60, 55 60 C52 60, 50 58, 50 55 C50 52, 48 50, 45 50 C42 50, 40 52, 40 55 C40 58, 38 60, 35 60 C32 60, 30 58, 30 55 Z" fill="#00d4ff" stroke="#0099cc" stroke-width="1"/>
+  
+  <!-- AWS Lambda-style function blocks -->
+  <rect x="20" y="65" width="8" height="6" fill="#ff9900" rx="1"/>
+  <rect x="30" y="68" width="6" height="4" fill="#00d4ff" rx="1"/>
+  <rect x="38" y="66" width="7" height="5" fill="#7dd3fc" rx="1"/>
+  
+  <!-- Container/Kubernetes pods -->
+  <rect x="55" y="65" width="10" height="8" fill="#00d4ff" stroke="#0099cc" stroke-width="1" rx="1"/>
+  <rect x="67" y="68" width="8" height="6" fill="#7dd3fc" stroke="#0284c7" stroke-width="1" rx="1"/>
+  
+  <!-- CI/CD Pipeline arrows -->
+  <path d="M22 78 L28 78 L26 76 M26 80 L28 78" stroke="#ff9900" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M35 78 L41 78 L39 76 M39 80 L41 78" stroke="#00d4ff" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M48 78 L54 78 L52 76 M52 80 L54 78" stroke="#7dd3fc" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- AWS-style connection nodes -->
+  <circle cx="25" cy="58" r="2" fill="#ff9900"/>
+  <circle cx="45" cy="58" r="2" fill="#00d4ff"/>
+  <circle cx="65" cy="58" r="2" fill="#7dd3fc"/>
+  
+  <!-- Connection lines between services -->
+  <line x1="27" y1="58" x2="43" y2="58" stroke="#333333" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="47" y1="58" x2="63" y2="58" stroke="#333333" stroke-width="1" stroke-dasharray="2,2"/>
+  
+  <!-- Code brackets for development -->
+  <path d="M75 35 L72 38 L75 41" stroke="#00d4ff" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M80 35 L83 38 L80 41" stroke="#00d4ff" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Monitoring/metrics dots -->
+  <circle cx="78" cy="55" r="1" fill="#ff9900"/>
+  <circle cx="82" cy="58" r="1" fill="#00d4ff"/>
+  <circle cx="75" cy="61" r="1" fill="#7dd3fc"/>
+  
+  <!-- Small cloud instances -->
+  <circle cx="35" cy="35" r="3" fill="#ff9900" opacity="0.7"/>
+  <circle cx="55" cy="37" r="2.5" fill="#00d4ff" opacity="0.7"/>
+  <circle cx="62" cy="34" r="2" fill="#7dd3fc" opacity="0.7"/>
+</svg>
